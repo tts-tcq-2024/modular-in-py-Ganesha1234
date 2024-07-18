@@ -1,4 +1,4 @@
-from colour_code import MAJOR_COLORS, MINOR_COLORS, Collect_pair_number_from_color, color_pair_to_string
+from FindColorcode import MAJOR_COLORS, MINOR_COLORS, Collect_pair_number_from_color, color_pair_to_string
 
 
 def create_reference_manual():
