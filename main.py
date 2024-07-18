@@ -1,5 +1,5 @@
 from tests import run_tests
-from ReferenceManual import create_reference_manual
+from CreateReferenceManual import create_reference_manual
 
 
 def main():
