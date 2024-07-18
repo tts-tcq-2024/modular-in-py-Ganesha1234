@@ -8,7 +8,6 @@ def main():
 
     # Generating and printing the reference manual
     manual = create_reference_manual()
-    print('Color Code Reference Manual:')
     print(manual)
 
 
