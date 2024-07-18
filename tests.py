@@ -1,4 +1,4 @@
-from color_code import Collect_color_from_pair_number, Collect_pair_number_from_color
+from colour_code import Collect_color_from_pair_number, Collect_pair_number_from_color
 
 
 def test_number_to_pair(pair_number, expected_major_color, expected_minor_color):
