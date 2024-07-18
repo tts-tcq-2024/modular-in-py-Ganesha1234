@@ -18,7 +18,6 @@ def Collect_color_from_pair_number(pair_number):
 
 
 def Collect_pair_number_from_color(major_color, minor_color):
-    print ("inside func")
     try:
         major_index = MAJOR_COLORS.index(major_color)
     except ValueError:
