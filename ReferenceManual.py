@@ -7,7 +7,6 @@ def create_reference_manual():
         for minor in MINOR_COLORS:
             pair_number = Collect_pair_number_from_color(major, minor)
             manual.append(f'{pair_number:2d} - {color_pair_to_string(major, minor)}')
-    print("manual prepared")
     return '\n'.join(manual)
 
 
