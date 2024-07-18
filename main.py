@@ -6,7 +6,7 @@ def main():
     # Running tests
     run_tests()
 
-    # Generating and printing the reference manual
+    # Generating reference manual
     manual = create_reference_manual()
     print(manual)
 
