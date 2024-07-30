@@ -1,19 +1,17 @@
 from tests import run_tests
 
+def generate_reference_manual():
+    reference_manual = [
+        f'{get_pair_number_by_colors(major_color, minor_color):2d} - {format_color_pair_string(major_color, minor_color)}'
+        for major_color in MAJOR_COLORS
+        for minor_color in MINOR_COLORS
+    ]
+    return '\n'.join(reference_manual)
 
-def create_reference_manual():
-    manual = []
-    for major in MAJOR_COLORS:
-        for minor in MINOR_COLORS:
-            pair_number = Collect_pair_number_from_color(major, minor)
-            manual.append(f'{pair_number:2d} - {color_pair_to_string(major, minor)}')
-    return '\n'.join(manual)
-  
-
-
-if __name__ == '__main__':  
-     # Running tests
+if __name__ == '__main__':
+    # Running tests
     run_tests()
 
     # Generating reference manual
-    manual = create_reference_manual()
+    reference_manual = generate_reference_manual()
+    print(reference_manual)
