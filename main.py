@@ -1,4 +1,5 @@
-from tests import run_tests
+from tests import run_tests  
+from FindColorcode import  MAJOR_COLORS,MINOR_COLORS,get_pair_number_by_colors,format_color_pair_string
 
 def generate_reference_manual():
     reference_manual = [
